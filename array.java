@@ -47,13 +47,4 @@ public class array {
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i] > array[i + 1]) {
                 isAscending = false;
-                break; // optional but efficient
-            }
-        }
-        if (isAscending) {
-            System.out.println("The arrays is sorted in assending order.");
-        } else {
-            System.out.println("The arrays is not sorted in assending order.");
-        }
-    }
-}
+                break; // optional 
