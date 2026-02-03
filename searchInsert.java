@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-class Solution {
+public class searchInsert {
     public static int searchInsert(int[] nums, int target) {
         int start=0, end=nums.length-1;
         while(start<=end){
