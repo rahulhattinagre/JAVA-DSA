@@ -8,16 +8,7 @@ class Solution {
      if(nums[mid]==target){
                 return mid;
             }
-            if(nums[mid]<target){
-                //right side
-                start=mid+1;
-            }else{//left
-                end=mid-1;
-            }
-        } 
-           
-        return start;
-    }
+            
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter size of array : ");
