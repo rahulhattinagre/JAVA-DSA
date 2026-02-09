@@ -1,31 +1,49 @@
 import java.util.Scanner;
-import java.util.*;
 
 public class TwoDArray {
- matrix as output for a given matrix of numbers. 
-       public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
-        int row=sc.nextInt();
-        int cols=sc.nextInt();
+    public static void search(int matrix[][],int key){
+        int largest=Integer.MIN_VALUE;
+        int smallest=Integer.MAX_VALUE;
+        boolean found=false;
+        for(int i=0;i<matrix.length;i++){
+            for(int j=0;j<matrix[0].length;j++){
+                if(matrix[i][j]==key){
+                    System.out.println("Key is found :("+i+", "+j+")");
+                    found=true;
+                }
+                if((largest<matrix[i][j])){
+                    largest=matrix[i][j];
 
-        int[][] number=new int[row][cols];
-
-        for(int i=0;i<row;i++){
-            for(int j=0;i<=cols;j++){
-                number[i][j]=sc.nextInt();
+                }if(smallest>matrix[i][j]){
+                    smallest=matrix[i][j];
+                }
             }
         }
-        int row_start=0;
-        int row_end=1;
-        int cols_start=0;
-        int cols_end=1;
-            
-        for(int i=0;i<row;i++){
-            for(int j=0;j<cols;j++){
-                System.out.print(number[i][j]+" ");
+        if(!found){
+            System.out.println("Key ! found");
+        }
+        System.out.println("smallest number is :"+smallest);
+        System.out.print("Largest  number is :"+largest);
+    }
+
+    public static void main(String[] args) {
+        int matrix[][]=new int[4][3];
+        int n=matrix.length,m=matrix[0].length;
+
+        Scanner sc=new Scanner(System.in);
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                matrix[i][j]=sc.nextInt();
+            }
+        }
+        System.out.print("Enter the key for search : ");
+        int key=sc.nextInt();
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                System.out.print(matrix[i][j]+" ");    
             }
             System.out.println();
         }
-       }
+        search(matrix, key);
+    }
 }
-
