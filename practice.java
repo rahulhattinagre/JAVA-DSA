@@ -1,29 +1,27 @@
-import java.util.Arrays;
-import java.util.Scanner;
 public class practice {
-    public static int findLarSmall(int n[],int key){
-    int start=0;
-    int end=n.length-1;
-    while (start<=end) {
-        int mid=(start+end)/2;
-        if(n[mid]==key){//mid
-            return mid;
+    public static double checkStringPalindrome(String str){
+       int x=0,y=0;
+         for(int i=0;i<str.length();i++){
+            int dir=str.charAt(i);
+            if(dir=='E'){
+                x++;
+            }else if(dir=='w'){
+                x--;
+            }else if(dir=='N'){
+                y++;
+            }else{
+                y--;
+            }
         }
-        else if(n[mid]<key){//left
-            start=mid+1;
-
-        }else{//right
-            end=mid-1;
-        }  
- 
-    }
-    return -1;
+        int x2=x*x;
+        int y2=y*y;
+        return (double)Math.sqrt(x2+y2);
     }
 
-    public static void main(String [] args) {
-        int n[]={1,2,2,7,8,0,13,10,9};
-        int key=9;
-        Arrays.sort(n);
-        System.out.println(findLarSmall(n,key) );
+    public static void main(String[] args) {
+        String str="WENSNSEW";
+        System.out.println( checkStringPalindrome(str));
+        
+        
     }
 }
