@@ -17,7 +17,12 @@ public static int getIthBit(int n,int i){
 
         return n & bitMask;
     }
-  
+   public static int updateIthBit(int n,int i,int newBit){
+        
+        n=clearIthBit(n,i);
+        int bitMask=newBit<<i;
+        return n| bitMask;
+    }
     public static void main(String []args){
         /*System.out.println(5&6);
         System.out.println(5|6);
