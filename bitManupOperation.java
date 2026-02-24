@@ -8,10 +8,7 @@ public static int getIthBit(int n,int i){
             return 1;
         }
     }
-    public static int setIthBit(int n,int i){
-        int bitMask=1<<i;
-        return n| bitMask;
-    }
+    
     public static int clearIthBit(int n,int i){
         int bitMask=~(1<<i);
 
