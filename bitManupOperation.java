@@ -27,6 +27,13 @@ public static int getIthBit(int n,int i){
          int bitmask=(~0)<<i;
          return n |bitmask;
     }
+public static int clearrangeIthBit(int n,int i,int j){
+        int a=(~0)<<j+1;
+        int b=(1-i)<<-1;
+
+        int bitmask=a | b;
+        return n & bitmask;
+    }
     public static void main(String []args){
         /*System.out.println(5&6);
         System.out.println(5|6);
@@ -42,6 +49,7 @@ public static int getIthBit(int n,int i){
         //System.out.println(clearIthBit(10,1));
         System.out.println(updateIthBit(10,2,1));
         System.out.println(updateIthBit(10,2));
+        System.out.println(updateIthBit(10,2,4));
     }
     
 }
