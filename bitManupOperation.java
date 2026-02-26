@@ -37,6 +37,16 @@ public static int clearrangeIthBit(int n,int i,int j){
          public static boolean isPowerOfTwo(int n){
         return (n & (n-1))==0;
     }
+        public static int countSetBit(int n){
+        int count =0;
+        while (n>0) {
+        if((n & 1)!= 0){
+            count++;
+        }           
+        n=n>>1;
+        }
+        return count;
+    }
     public static void main(String []args){
         /*System.out.println(5&6);
         System.out.println(5|6);
@@ -50,9 +60,9 @@ public static int clearrangeIthBit(int n,int i,int j){
        // System.out.println(getIthBit(10,2));
         //System.out.println(setIthBit(10,2));
         //System.out.println(clearIthBit(10,1));
-        System.out.println(updateIthBit(10,2,1));
-        System.out.println(updateIthBit(10,2));
         System.out.println(updateIthBit(10,2,4));
+        System.out.println(countSetBit(10));
+        System.out.println(isPowerOfTwo(8));
     }
     
 }
