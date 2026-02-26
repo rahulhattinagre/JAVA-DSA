@@ -34,6 +34,9 @@ public static int clearrangeIthBit(int n,int i,int j){
         int bitmask=a | b;
         return n & bitmask;
     }
+         public static boolean isPowerOfTwo(int n){
+        return (n & (n-1))==0;
+    }
     public static void main(String []args){
         /*System.out.println(5&6);
         System.out.println(5|6);
