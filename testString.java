@@ -7,7 +7,7 @@ public class testString {
     }  
 
     //Convert the first letter of every word to uppercase.
-    public static String toUpperCase(String str){
+      public static String toUpperCase(String str){
         StringBuilder sb=new StringBuilder();
         char ch=Character.toUpperCase(str.charAt(0));
         sb.append(ch);
@@ -24,6 +24,8 @@ public class testString {
         }
         return sb.toString();
     }
+
+    
 
     //string Compress
     public static String compress(String str){
