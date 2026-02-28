@@ -26,4 +26,12 @@ public class Oops {
         tip=newTip;
     }
 }
+ class BankAccount{
+        public String username;
+        private String password;
+        public void setPassword(String pass){
+            password=pass;
+        }
+    }
+
 
