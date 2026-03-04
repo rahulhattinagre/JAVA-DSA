@@ -12,6 +12,7 @@ public class Stringfun{
     System.out.println(str1.replace('Nanded','Pune'));
     System.out.println(str1.subString(hul));
     System.out.println(str1.split( ));
+    System.out.println(str1.equal(str2));
     
   }
 }
