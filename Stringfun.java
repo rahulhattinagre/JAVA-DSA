@@ -13,6 +13,7 @@ public class Stringfun{
     System.out.println(str1.subString(hul));
     System.out.println(str1.split( ));
     System.out.println(str1.equal(str2));
+    System.out.println(str1.equalTo(str2));
     System.out.println(str1.trim(str2));
     System.out.println("java".equalsIgnoreCase("JAVA")); // true
     
