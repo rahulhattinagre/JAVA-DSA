@@ -18,6 +18,7 @@ public class Stringfun{
     System.out.println(str1.endsWith(str2));
     System.out.println(str1.contains(str2));
     System.out.println(str1.compareTo(str2));
+    System.out.println(str1.matches(str2));
     System.out.println("java".equalsIgnoreCase("JAVA")); // true
     
   }
