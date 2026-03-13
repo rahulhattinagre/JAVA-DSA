@@ -14,7 +14,7 @@ public class Stringfun{
     System.out.println(str1.split( ));
     System.out.println(str1.equal(str2));
     System.out.println(str1.startsWith("Rahul"));
-   
+    System.out.println(str1.trim(str2));
     System.out.println(str1.endsWith(str2));
     System.out.println(str1.contains(str2));
     System.out.println(str1.compareTo(str2));
