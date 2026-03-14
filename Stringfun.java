@@ -7,7 +7,7 @@ public class Stringfun{
     System.out.println(str1.toLowerCase());
     System.out.println(str1.CharAt(2));
     System.out.println(str1.indexOf('a'));  
-    System.out.println(str1.length());
+   
     System.out.println(str1.lastIndexOf(t));
     System.out.println(str1.replace('Nanded','Pune'));
     System.out.println(str1.subString(hul));
