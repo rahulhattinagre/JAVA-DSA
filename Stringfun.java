@@ -5,8 +5,8 @@ public class Stringfun{
     System.out.println(str1.concat(str2));
     System.out.println(str1.toUpperCase());
     System.out.println(str1.toLowerCase());
-    System.out.println(str1.CharAt(2));
-    System.out.println(str1.indexOf('a'));  
+System.out.println(str1.CharAt(2));
+System.out.ptintln(str1.lastIndexOf(str2))   System.out.println(str1.indexOf('a'));  
 System.out.println(str1.endsWith(str2))
  System.out.println(str1.replace('Nanded','Pune'));
     System.out.println(str1.subString(hul));
