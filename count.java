@@ -41,7 +41,5 @@ public class count {
     for(int i=0;i<transpose.length;i++){
         for(int j=0;j<transpose[0].length;j++){
     
-   }
-}
-   }
+   } }
 }
