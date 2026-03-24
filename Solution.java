@@ -1,8 +1,7 @@
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
       int sum=m+n;
-      for(int i=m-1;i>=n;)
-
+      for(int i=m-1;i>=n;i++);
     }
     public static void main(String agrs[]){
         int num1[]={1,2,3,0,0,0};
