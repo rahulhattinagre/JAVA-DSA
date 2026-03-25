@@ -1,4 +1,4 @@
-public class stringFun{
+public class Stringfun{
   public static void main(String args[]){
     String str1="Rahul hattinagre";
     String str2="Nanded";
