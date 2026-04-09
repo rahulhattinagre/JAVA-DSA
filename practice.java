@@ -1,27 +1,30 @@
 public class practice {
-    public static double checkStringPalindrome(String str){
-       int x=0,y=0;
-         for(int i=0;i<str.length();i++){
-            int dir=str.charAt(i);
-            if(dir=='E'){
-                x++;
-            }else if(dir=='w'){
-                x--;
-            }else if(dir=='N'){
-                y++;
-            }else{
-                y--;
-            }
-        }
-        int x2=x*x;
-        int y2=y*y;
-        return (double)Math.sqrt(x2+y2);
-    }
-
     public static void main(String[] args) {
-        String str="WENSNSEW";
-        System.out.println( checkStringPalindrome(str));
-        
-        
+        int n=4;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            for(int k=1;k<=n-i;k++){
+                System.out.print("  ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        //bottom half
+        for(int i=n;i>=1;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            for(int k=1;k<=n-i;k++){
+                System.out.print("  ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
