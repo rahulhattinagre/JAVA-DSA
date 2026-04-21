@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultidimAL",
+            "request": "launch",
+            "mainClass": "MultidimAL",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "ClassRoom",
+            "request": "launch",
+            "mainClass": "ClassRoom",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "Recursion",
             "request": "launch",
             "mainClass": "Recursion",
