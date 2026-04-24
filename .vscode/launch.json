@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PairSum1_2",
+            "request": "launch",
+            "mainClass": "PairSum1_2",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "ContainerWater",
+            "request": "launch",
+            "mainClass": "ContainerWater",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "MultidimAL",
             "request": "launch",
             "mainClass": "MultidimAL",
