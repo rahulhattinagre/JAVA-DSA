@@ -1,6 +1,6 @@
 public class MergeSort {
     
-    public static void printarr(int arr[]){
+    public static void printarr(String arr[]){
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i] + " ");
         }
@@ -46,12 +46,48 @@ public class MergeSort {
             arr[i] = temp[k];
         }
     }
+    //applying Merge Sort on an array of Strings:
+    public static void mergeString(String arr[],int si,int ei){
+        if(si>=ei){
+            return;
+        }
+        int mid=si+(ei-si)/2;
+        mergeString(arr, si, mid);//left
+        mergeString(arr, mid+1, ei);//right
+        merge2(arr, si, mid, ei);
+    }
+    public static void merge2(String arr[],int si,int mid,int ei)
+    {
+        String temp[]=new String[ei-si+1];
+        int i=si;
+        int j=mid+1;
+        int k=0;
 
+        while(i<=mid && j<=ei){
+            if (arr[i].compareTo(arr[j]) <= 0){
+                temp[k++]=arr[i++];
+            }
+            else{
+                temp[k++]=arr[j++];
+            }
+        }
+        //left part
+        while(i<=mid){
+            temp[k++]=arr[i++];
+        }
+        //right part
+        while(j<=ei){
+            temp[k++]=arr[j++];
+        }
+    for(k=0,i=si;k<temp.length;k++,i++){
+        arr[i]=temp[k];
+    }
+}
     public static void main(String[] args) {
-        int arr[] = {6, 3, 9, 5, 2, 8};
-
-        mergeSort(arr, 0, arr.length - 1);
-
+        String arr[] = { "sun", "earth", "mars", "mercury" };
+        mergeString(arr, 0, arr.length - 1);
         printarr(arr);
+        //mergeSort(arr, 0, arr.length - 1);
+        //printarr(arr);
     }
 }

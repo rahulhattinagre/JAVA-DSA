@@ -32,10 +32,30 @@ public class DividenConquer{
             }
         }
     }
+    //majority element appears more than n/2 times
+    public static int majority(int[] num){
+        int Mcount=num.length/2;
+
+        for(int i=0;i<num.length;i++){
+            int count=0;
+            for(int j=0;j<num.length;j++){
+                if(num[i]==num[j]){
+                    count+=1;
+                }
+            }
+            if(count>Mcount){
+                return num[i];
+            }
+        }
+        return -1;
+    }
     public static void main(String[] args){
-        int arr[]={4,5,6,7,0,1,2};
-        int target=6;
-        int tarindx=search(arr,target,0,arr.length-1);
-        System.out.println(tarindx);
+        //int arr[]={4,5,6,7,0,1,2};
+        //int target=6;
+        //int tarindx=search(arr,target,0,arr.length-1);
+        //System.out.println(tarindx);
+        int num[]={2,2,1,1,1,2,2};
+        int ans=majority(num);
+        System.out.println(ans);
     }
 }
