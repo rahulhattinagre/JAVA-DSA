@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Backtracking",
+            "request": "launch",
+            "mainClass": "Backtracking",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "QuickSort",
             "request": "launch",
             "mainClass": "QuickSort",
