@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NQueen",
+            "request": "launch",
+            "mainClass": "NQueen",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "Backtracking",
             "request": "launch",
             "mainClass": "Backtracking",
