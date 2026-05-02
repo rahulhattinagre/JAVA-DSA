@@ -28,13 +28,11 @@ public class NQueen {
 
     // N-Queen function
     public static void nQueen(char board[][], int row) {
-
         // base case
         if (row == board.length) {
             printBoard(board);
             return;
         }
-
         // column loop
         for (int j = 0; j < board.length; j++) {
             if (isSafe(board, row, j)) {
@@ -46,7 +44,7 @@ public class NQueen {
     }
 
     public static void printBoard(char board[][]) {
-        System.out.println("-------Chess Board-------");
+        System.out.println("-------Chess Board----------");
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board.length; j++) {
                 System.out.print(board[i][j] + " ");
@@ -55,9 +53,8 @@ public class NQueen {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         char board[][] = new char[n][n];
 
         // initialize board
@@ -66,7 +63,6 @@ public class NQueen {
                 board[i][j] = 'X';
             }
         }
-
         nQueen(board, 0);
     }
 }
