@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Keypad",
+            "request": "launch",
+            "mainClass": "Keypad",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "SudoKu",
+            "request": "launch",
+            "mainClass": "SudoKu",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "GridWays",
+            "request": "launch",
+            "mainClass": "GridWays",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "NQueen",
             "request": "launch",
             "mainClass": "NQueen",
