@@ -21,7 +21,7 @@ public class ContainerWater {
         hight.add(2);
         hight.add(5);
         hight.add(4);
-        hight.add(8);
+        hight.add(7);
         hight.add(3);
         hight.add(7);
         System.out.println(storeWater(hight));
