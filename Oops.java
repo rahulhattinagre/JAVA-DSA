@@ -9,7 +9,7 @@ public class Oops {
         System.out.println(p1.color);
         
         BankAccount myACC=new BankAccount();
-        myACC.username="Rahul";
+        myACC.username="Rahul Hattinagre";
         System.out.println(myACC.username);
         myACC.setPassword("rahulhattinagre");
     }
