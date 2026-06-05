@@ -4,7 +4,7 @@ class Solution {
       for(int i=m-1;i>=n;i++);
     }
     public static void main(String agrs[]){
-        int num1[]={1,2,3,0,0,0};
+        int num1[]={1,2,3,};
         int num2[]={2,5,6};
         int n=3;
         int m=3;
