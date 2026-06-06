@@ -42,7 +42,7 @@ public class Practice {
     }
 
     public static void main(String[] args) {
-        int arr[] = {6, 5, 6, 7, 8, 2};
+        int arr[] = {5,3,2,8,0,5,7};
 
         System.out.println("Original Array:");
         printArray(arr);
