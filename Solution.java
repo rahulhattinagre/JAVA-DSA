@@ -33,6 +33,9 @@ class Solution {
         Solution obj = new Solution();
         obj.merge(nums1, m, nums2, n);
 
+         Solution obj1= new Solution();
+        obj.merge(nums1, m, nums2, n);
+
         for(int x : nums1) {
             System.out.print(x + " ");
         }
