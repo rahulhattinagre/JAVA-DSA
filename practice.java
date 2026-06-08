@@ -23,11 +23,7 @@ public class Practice {
             }
 
             // If no swapping, array is already sorted
-            if (!swapped) {
-                System.out.println("Array already sorted. Stopping early.");
-                break;
-            }
-        }
+          
 
         System.out.println("Total Comparisons = " + comparisons);
         System.out.println("Total Swaps = " + swaps);
