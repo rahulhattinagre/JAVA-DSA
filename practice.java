@@ -23,7 +23,10 @@ public class Practice {
             }
 
             // If no swapping, array is already sorted
-          
+            if (!swapped) {
+                break;
+            }
+        }
 
         System.out.println("Total Comparisons = " + comparisons);
         System.out.println("Total Swaps = " + swaps);
@@ -38,7 +41,7 @@ public class Practice {
     }
 
     public static void main(String[] args) {
-        int arr[] = {4,4,2,7,9,3,6};
+        int arr[] = {4, 4, 2, 7, 9, 3, 6};
 
         System.out.println("Original Array:");
         printArray(arr);
