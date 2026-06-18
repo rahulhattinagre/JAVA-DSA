@@ -11,7 +11,9 @@ public class Practice {
             for (int j = 0; j < arr.length - 1 - turn; j++) {
                 comparisons++;
 
-               
+               int a =a+b;
+               int b= a-b;
+               int a=a-b;
             }
 
             // If no swapping, array is already sorted
