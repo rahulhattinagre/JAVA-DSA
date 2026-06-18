@@ -11,15 +11,7 @@ public class Practice {
             for (int j = 0; j < arr.length - 1 - turn; j++) {
                 comparisons++;
 
-                if (arr[j] > arr[j + 1]) {
-                    // Swap
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-
-                    swaps++;
-                    swapped = true;
-                }
+               
             }
 
             // If no swapping, array is already sorted
