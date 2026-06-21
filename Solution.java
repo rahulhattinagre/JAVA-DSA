@@ -1,66 +1,25 @@
-public class Nqueen {
+public class BinarySearch {
 
-    public static boolean isSafe(char board[][], int row, int col) {
-
-        // vertical up
-        for (int i = row - 1; i >= 0; i--) {
-            if (board[i][col] == 'Q') {
-                return false;
+    public static int binarySearch(int num[],int key) {
+        int start=0;
+        int end=num.length-1;
+        while(start<=end){
+         int mid=start+(end-start)/2;
+            if(num[mid]==key){
+                return mid;
             }
-        }
-
-        // diagonal left up
-        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
-            if (board[i][j] == 'Q') {
-                return false;
-            }
-        }
-
-        // diagonal right up
-        for (int i = row - 1, j = col + 1; i >= 0 && j < board.length; i--, j++) {
-            if (board[i][j] == 'Q') {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
-    public static void nQueen(char board[][], int row) {
-        if (row == board.length) {
-            printBoard(board);
-            System.out.println();
-            return;
-        }
-
-        for (int j = 0; j < board.length; j++) {
-            if (isSafe(board, row, j)) {
-                board[row][j] = 'Q';   // place queen
-                nQueen(board, row + 1); // recursive call
-                board[row][j] = 'X';   // backtracking
-            }
-        }
-    }
-
-    public static void printBoard(char board[][]) {
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board.length; j++) {
-                System.out.print(board[i][j] + " ");
-            }
-            System.out.println();
-        }
-    }
-
-    public static void main(String[] args) {
-        int n = 4;
-        char board[][] = new char[n][n];
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                board[i][j] = 'X';
-            }
-        }
-
-        nQueen(board, 0);
-    }
+           if(key > num[mid]) {
+    start = mid + 1;
+} else {
+    end = mid - 1;
 }
+
+        }
+        return -1
+    }
+    public static void main(String[] args) {
+        int num[] = {2,4,6,8,10,14};
+        int key=10;
+        System.out.println(binarySearch(num,key));
+            }
+        }
