@@ -5,6 +5,7 @@ class Student{
     Student(){//default constructor
         name="Rahul";
         age=22;
+        rollno=11;
     }
     Student(String name,int age){//parameterized constructor
         this.name=name;
