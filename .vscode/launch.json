@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IsSortedArray",
+            "request": "launch",
+            "mainClass": "IsSortedArray",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "SecondSmallest",
+            "request": "launch",
+            "mainClass": "SecondSmallest",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "SecondMax",
+            "request": "launch",
+            "mainClass": "SecondMax",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "butterflyPatt",
+            "request": "launch",
+            "mainClass": "butterflyPatt",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "Practice",
             "request": "launch",
             "mainClass": "Practice",

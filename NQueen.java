@@ -1,5 +1,5 @@
 public class NQueen {
-
+    static int count = 0;
     public static boolean isSafe(char board[][], int row, int col) {
 
         // vertical up
@@ -32,6 +32,7 @@ public class NQueen {
         // base case
         if (row == board.length) {
             printBoard(board);
+            count++;
             return;
         }
 
@@ -66,7 +67,8 @@ public class NQueen {
                 board[i][j] = 'X';
             }
         }
-
+        nQueen(board, 0);
+        System.out.println("Total number of ways to solve N-Queen problem: " + count);
         nQueen(board, 0);
     }
 }

@@ -1,24 +1,17 @@
-public class practice {
-    public static void bubblesort(int arr[]){
-        for(int turn=0;turn<arr.length-1;turn++){
-            for(int j=0;j<arr.length-1-turn;j++){
-                if(arr[j]>arr[j+1]){
-                    int temp=arr[j];
-                    arr[j]=arr[j+1];
-                    arr[j+1]=temp;
+    public class practice {
+        public static boolean isSorted(int nums[]){
+            for(int i=0;i<nums.length-1;i++){
+                if(nums[i]>nums[i+1]){
+                    return false;
                 }
             }
+            return true;
         }
+        public static void main(String []args){
+            int nums[]={9,8,7,6,4,5,6,7,8};
+            practice p=new practice();
+            boolean ans=p.isSorted(nums);
+            System.out.println(ans);
         }
-        public static void printsort(int arr[]){
-            for(int i=0;i<arr.length;i++){
-                System.out.print(arr[i]+" ");
-            }
-
-        }
-    public static void main(String[] args) {
-        int arr[]= {6,5,6,7,8,2,};
-        bubblesort(arr);
-        printsort(arr);
     }
-}
+            
