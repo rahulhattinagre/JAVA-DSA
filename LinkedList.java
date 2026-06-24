@@ -32,6 +32,10 @@ public class LinkedList {
         tail=newNode;
     }
     public static void print(){
+        if (head == null) {
+            System.out.println("Linked List is empty");
+            return;
+        }
         node temp=head;
         while(temp!=null){
             System.out.print(temp.data+"->");
