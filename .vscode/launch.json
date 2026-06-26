@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicateArray",
+            "request": "launch",
+            "mainClass": "RemoveDuplicateArray",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "reverseArrays",
+            "request": "launch",
+            "mainClass": "reverseArrays",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "SingleNum",
+            "request": "launch",
+            "mainClass": "SingleNum",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "MaxOnces",
+            "request": "launch",
+            "mainClass": "MaxOnces",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "longestSubarraySum",
+            "request": "launch",
+            "mainClass": "longestSubarraySum",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "IsSortedArray",
             "request": "launch",
             "mainClass": "IsSortedArray",
