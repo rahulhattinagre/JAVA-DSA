@@ -197,9 +197,16 @@ public class LinkedList {
        ll.removeNthNode(2);
        ll.print();
 
+        System.out.println("Removed First: " + ll.removeFirst());
 
+        System.out.println("Linked List:");
+        ll.print();
 
-       
+        System.out.println("Removed Last: " + ll.removeLast());
 
+        System.out.println("Linked List:");
+        ll.print();
+
+        System.out.println("Size of Linked List: " + size);
     }
 }
