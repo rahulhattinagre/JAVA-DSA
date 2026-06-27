@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortArray012",
+            "request": "launch",
+            "mainClass": "SortArray012",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "reverseString",
             "request": "launch",
             "mainClass": "reverseString",
