@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "kadanesSubArray",
+            "request": "launch",
+            "mainClass": "kadanesSubArray",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList2",
+            "request": "launch",
+            "mainClass": "LinkedList2",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "MajorityElement",
             "request": "launch",
             "mainClass": "MajorityElement",

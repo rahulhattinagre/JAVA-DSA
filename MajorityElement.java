@@ -20,6 +20,6 @@ public class MajorityElement {
         int nums[]={7,0,0,0,1,7,2,0,0};
         MajorityElement me=new MajorityElement();
 
-        System.out.println(me.majorNum(nums));
+        System.out.println("Majority Number : "+me.majorNum(nums));
     }
 }
