@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoubleLL",
+            "request": "launch",
+            "mainClass": "DoubleLL",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "ZigZagLL",
+            "request": "launch",
+            "mainClass": "ZigZagLL",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListJCF",
+            "request": "launch",
+            "mainClass": "LinkedListJCF",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "kadanesSubArray",
             "request": "launch",
             "mainClass": "kadanesSubArray",
