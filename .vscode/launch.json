@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackB",
+            "request": "launch",
+            "mainClass": "StackB",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "DeleteAllDLL",
             "request": "launch",
             "mainClass": "DeleteAllDLL",
