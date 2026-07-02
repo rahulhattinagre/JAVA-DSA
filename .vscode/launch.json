@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackPAtBottom",
+            "request": "launch",
+            "mainClass": "StackPAtBottom",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "StackJCF",
+            "request": "launch",
+            "mainClass": "StackJCF",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "StackLL",
+            "request": "launch",
+            "mainClass": "StackLL",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "StackB",
             "request": "launch",
             "mainClass": "StackB",
