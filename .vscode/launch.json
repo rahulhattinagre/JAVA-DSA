@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackNextGreater",
+            "request": "launch",
+            "mainClass": "StackNextGreater",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "StockSpan",
+            "request": "launch",
+            "mainClass": "StockSpan",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "TwoSumTwopointer",
+            "request": "launch",
+            "mainClass": "TwoSumTwopointer",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "StackPAtBottom",
             "request": "launch",
             "mainClass": "StackPAtBottom",
