@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackValidParentheses",
+            "request": "launch",
+            "mainClass": "StackValidParentheses",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "StackDuplicateParentheses",
+            "request": "launch",
+            "mainClass": "StackDuplicateParentheses",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "StackValidParenthisis",
             "request": "launch",
             "mainClass": "StackValidParenthisis",
