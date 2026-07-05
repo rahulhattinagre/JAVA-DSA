@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Histogram",
+            "request": "launch",
+            "mainClass": "Histogram",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "ThirdMax",
+            "request": "launch",
+            "mainClass": "ThirdMax",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "StackValidParentheses",
             "request": "launch",
             "mainClass": "StackValidParentheses",
