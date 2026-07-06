@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueArray",
+            "request": "launch",
+            "mainClass": "QueueArray",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "Histogram",
             "request": "launch",
             "mainClass": "Histogram",
