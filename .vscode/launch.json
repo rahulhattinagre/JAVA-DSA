@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueStack",
+            "request": "launch",
+            "mainClass": "QueueStack",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "QueueJCF",
+            "request": "launch",
+            "mainClass": "QueueJCF",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "QueueLL",
+            "request": "launch",
+            "mainClass": "QueueLL",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "QueueArray",
             "request": "launch",
             "mainClass": "QueueArray",
