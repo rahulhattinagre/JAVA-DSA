@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueReverse",
+            "request": "launch",
+            "mainClass": "QueueReverse",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "QueueNonrepetingchar",
+            "request": "launch",
+            "mainClass": "QueueNonrepetingchar",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "QueueStack",
             "request": "launch",
             "mainClass": "QueueStack",
