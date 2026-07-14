@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackQueueUsingDeque",
+            "request": "launch",
+            "mainClass": "StackQueueUsingDeque",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "Deque",
+            "request": "launch",
+            "mainClass": "Deque",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "QueueReverse",
             "request": "launch",
             "mainClass": "QueueReverse",
