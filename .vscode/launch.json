@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HeapNearCar",
+            "request": "launch",
+            "mainClass": "HeapNearCar",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "MoveZerosATLast",
+            "request": "launch",
+            "mainClass": "MoveZerosATLast",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "HeapSort",
             "request": "launch",
             "mainClass": "HeapSort",
