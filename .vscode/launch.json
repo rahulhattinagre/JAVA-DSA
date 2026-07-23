@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SlidingWindow",
+            "request": "launch",
+            "mainClass": "SlidingWindow",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "WeakestSoldier",
+            "request": "launch",
+            "mainClass": "WeakestSoldier",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
+            "name": "Pqnropes",
+            "request": "launch",
+            "mainClass": "Pqnropes",
+            "projectName": "java_d356b711"
+        },
+        {
+            "type": "java",
             "name": "HeapNearCar",
             "request": "launch",
             "mainClass": "HeapNearCar",
