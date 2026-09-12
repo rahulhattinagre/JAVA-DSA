@@ -12,9 +12,5 @@ public class Deque {
         q.addLast(6);
         q.removeFirst();
 
-        while (!q.isEmpty()) {
-            System.out.print(q.remove());
-        }
-        System.out.println();
     }
 }
