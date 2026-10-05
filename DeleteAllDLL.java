@@ -102,7 +102,6 @@ public class DeleteAllDLL {
         ll.addFirst(2);
         ll.addFirst(1);
         ll.addFirst(0);
-        ll.addFirst(-1);
 
         System.out.println("Original Linked List:");
         ll.print();
