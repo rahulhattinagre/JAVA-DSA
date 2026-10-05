@@ -17,6 +17,12 @@ class dog extends Animal{
         System.out.println("BOW BOW BO....");
     }
 }
+class cat extends Animal{
+    int leg;
+    void sound(){
+        System.out.println("mav mavv mavvv...");
+    }
+}
 public class Inheritance {
     public static void main(String[] args){
         dog f1=new dog();
